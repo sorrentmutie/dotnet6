@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiaAppWeb", "MiaAppWeb\MiaAppWeb.csproj", "{07F7AB93-68E0-4888-ADAD-F0E746A83EFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07F7AB93-68E0-4888-ADAD-F0E746A83EFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07F7AB93-68E0-4888-ADAD-F0E746A83EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07F7AB93-68E0-4888-ADAD-F0E746A83EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07F7AB93-68E0-4888-ADAD-F0E746A83EFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1547835-1EA7-4B94-B729-B85BD9F79E1E}
+	EndGlobalSection
+EndGlobal

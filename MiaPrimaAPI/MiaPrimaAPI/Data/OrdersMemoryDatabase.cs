@@ -19,8 +19,8 @@ namespace MiaPrimaAPI.Data
 
             if (database.Orders.Count() == 0)
             {
-                database.Orders.Add(new Order { Date = DateTime.Today, ClientId = 1, Total = 100.0M });
-                database.Orders.Add(new Order { Date = DateTime.Today, ClientId = 1, Total = 200.0M });
+                //database.Orders.Add(new Order { Date = DateTime.Today, ClientId = 1, Total = 100.0M });
+                //database.Orders.Add(new Order { Date = DateTime.Today, ClientId = 1, Total = 200.0M });
                 database.SaveChanges();
             }
 
@@ -33,7 +33,7 @@ namespace MiaPrimaAPI.Data
 
         public void DeleteOrder(int id)
         {
-            var orderInDb = GetOrderById(id);
+            var orderInDb = database.Orders.Find(id);
             database.Entry(orderInDb).State = Microsoft.EntityFrameworkCore.EntityState.Deleted;
             database.SaveChanges();
 

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiaPrimaAPI", "MiaPrimaAPI\MiaPrimaAPI.csproj", "{12D94553-FBF9-44FD-B3E3-D72439B91EEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MioProgetto.Core", "MioProgetto.Core\MioProgetto.Core.csproj", "{0683E274-905E-46EF-B9E2-B4AA93F18DFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12D94553-FBF9-44FD-B3E3-D72439B91EEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12D94553-FBF9-44FD-B3E3-D72439B91EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12D94553-FBF9-44FD-B3E3-D72439B91EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12D94553-FBF9-44FD-B3E3-D72439B91EEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0683E274-905E-46EF-B9E2-B4AA93F18DFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0683E274-905E-46EF-B9E2-B4AA93F18DFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0683E274-905E-46EF-B9E2-B4AA93F18DFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0683E274-905E-46EF-B9E2-B4AA93F18DFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30C94541-6FF8-4BD5-9017-43D0C54E918A}
+	EndGlobalSection
+EndGlobal
